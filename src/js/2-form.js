@@ -1,5 +1,3 @@
-/*import { naviFunction } from './src/main.js';
-naviFunction();*/
 const LocalKey = 'feedback-form-state';
 const form = document.querySelector('.feedback-form');
 const { email, message } = form.elements;
