@@ -1,4 +1,5 @@
 import SimpleLightbox from 'simplelightbox';
+
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const images = [
@@ -88,6 +89,3 @@ const gallery = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
 });
-/*
-import { naviFunction } from './src/main.js';
-naviFunction();*/
